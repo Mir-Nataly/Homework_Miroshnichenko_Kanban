@@ -1,0 +1,29 @@
+.header {
+	background: #0067A3;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sprint {
+	margin-left: auto;
+}
+
+/* .btn {
+	background: #0067A3;
+	padding: 0;
+	border: 0;
+} */
+
+.foto {
+	background-color: #0067A3;
+	color: #0067A3;
+}
+
+.title{
+	background-color: #0067A3;
+}
