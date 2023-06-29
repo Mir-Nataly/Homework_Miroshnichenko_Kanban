@@ -35,7 +35,6 @@ const TaskDetail = (props) => {
 				<p className={css.createdAt}>Created at: {formatDate(task.created)}</p>
 				<p>Description: {task.description || '(This task has no description)'}{<FormChangeNewTask>
 					</FormChangeNewTask>}</p>
-					{/* <EditTask /> */}
 				<p className={css.label}>Change status:</p>
 				<select className={css.select} onChange={handleChange} value={task.status}>
 					{Object.values(LIST_TYPES).map(list => {

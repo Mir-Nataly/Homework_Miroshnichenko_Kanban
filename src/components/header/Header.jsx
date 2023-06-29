@@ -1,6 +1,6 @@
 
 import css from './Header.module.css'
-/* import UserMenu from '../../assets/user-menu.svg' */
+import UserMenu from '../../assets/user-menu.svg'
 
 import Dropdown from '../dropdown/Dropdown'
 
@@ -10,13 +10,13 @@ function Header() {
 			<h1 className={css.title}>Awesome Kanban Board</h1>
 			<div className={css.foto}>
 				{/* <button className={css.btn}>
-					<img src={UserMenu} alt=''/> */}
-					{/* <select>
+					<img src={UserMenu} alt=''/>
+					<select>
 						<option></option>
             			<option>Profile</option>
             			<option>Log out</option>
-          			</select> */}
-				{/* </button> */}
+          			</select>
+				</button> */}
 				<Dropdown />
 			</div>
 		</header>
