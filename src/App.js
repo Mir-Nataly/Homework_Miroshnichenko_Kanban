@@ -3,6 +3,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import Main from './components/main/Main'
+import css from './App.css'
 
 function App() {
 	const initialState = JSON.parse(window.localStorage.getItem('tasks')) || []
